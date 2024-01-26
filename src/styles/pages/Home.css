@@ -1,0 +1,145 @@
+.image-holder{
+    position: relative;
+    /* left: 100px; */
+    display: inline-block;
+}
+
+.f-section{
+    background-color:rgb(227, 234, 236);
+}
+
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+
+.image-holder:hover .button{
+    opacity: 1;
+ } 
+
+
+
+ #yearly-sale{
+    /* background-image: url('C:\Users\ADMIN\Document\react-django2\frontend\react-front\src\media\singel-image1.png'); */
+    background-position: right;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 500px;
+    margin-top: 100%;
+    background-color:rgb(227, 234, 236);
+    
+ }
+
+ #yearly-sale img{
+    position: relative;
+    height: 600px;
+    left: 100%;
+    bottom: 250px;
+
+ }
+
+ #yearly-sale h3 h2{
+    font-size: bold;
+ }
+
+ /* #yearly-sale a{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+ } */
+
+ .subscribe-content{
+    height: 250px;
+
+}
+
+.sub-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(187, 187, 250);
+}
+
+#subscribe{
+    margin-top: 100px;
+}
+
+  
+ 
+.insta-image{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+
+@media (max-width:769px){
+    .banner-content{
+        position: relative;
+        text-align: center;
+        
+    }
+    
+    #yearly-sale img{
+        position: relative;
+        height: 300px;
+        left: 50%;
+        bottom: 150px;
+        
+    }
+
+    /* .btn2{
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+        width: 100%;
+    } */
+    /* .btn{
+        display: none;
+        position: relative;
+        left: 50px;
+    } */
+    .display-2 {
+        position:absolute ;
+        top:100px;
+        left: 8px;
+        
+        
+        
+    }
+
+    .btn{
+        position: absolute;
+       top: 500px;
+       left: 600px;
+       width: 40%;
+       border: none;
+    }
+
+    .image-holder{
+        position: relative;
+        left: 20px;
+        z-index: -100;
+    }
+
+    .button{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+
+    
+    .insta-image{
+        width: 200px;
+        height: 200px;
+    }
+
+}

@@ -1,0 +1,29 @@
+.f-section{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 200px;
+   width: 100%;
+   top: 58px;
+   background-color: aqua; 
+}
+
+@media (max-width:769px) {
+    
+    .products{
+        position: relative;
+        top: 50px;
+    }
+
+    img{
+        border-radius: 10px;
+    }
+
+    .card-title{
+        bottom: 10%;
+    }
+
+    
+}
+
